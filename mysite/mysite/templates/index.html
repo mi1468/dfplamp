@@ -33,6 +33,26 @@
   margin: 1em;
 
 }
+.home-btn{
+  margin-bottom: 4rem;
+  padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+
+    color: white !important;
+    background-color: #FF1616;
+    border-color: #FF1616;
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+
+
+}
+
 p{
   font-size: 1.2rem;
 }
@@ -53,16 +73,45 @@ p{
     </h5>
 
     <p class="textOnderLogo">
-      {{  data }}
-      {{  data|length }}
+      <!-- {{  data }} -->
+      <!-- {{  data|length }} -->
        
-      Bayreuth, Germany, April 6th - 8th 2022
+      This web-server is designed to predict the sizes of LAMP products (bp) and simulate
     </p>
 
     <p class="textOnderLogo">
-      In-person and online conference
+      the artificial agarose gel to discriminate false-positive LAMP results
     </p>
 
+    <div style="    width: min-content;    margin: auto;">
+       <a class="home-btn">
+      Predict
+    </a>
+    </div>
+    <div style=" background-color: #e5e5e5; padding-top:.5rem; padding-bottom: 1.5rem;">
+      <div style="    border-radius: 0.4rem; width:70%; padding:1rem;    color: #1b1e21;      background-color: #d6d8d9;      border-color: #c6c8ca;  margin:auto; margin-top:2rem; ">
+        <h4>
+          Citation
+        </h4>
+        <p style="font-size: 0.9rem;">
+          If you find DFP-LAMP useful in your research, please cite us as follows:
+          <br>
+          AUTHORS (YEAR)
+          <br>
+          PAPER TITLE
+          <br>
+          JOURNAL https://doi.org/DOI_LINK 
+         
+        </p>
+
+        <hr>
+        <div style="    width: min-content;   ">
+          <a class="home-btn" style="margin-bottom: 0rem; font-size: 1rem;">
+            Read the full text
+       </a>
+      </div>
+    </div>
+   
   </div>
 
 
@@ -125,5 +174,5 @@ p{
    <!-- <div class="alert alert-info text-center" role="alert">
     Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
   </div> -->
-</div> -->
+</div>  
 {% endblock %}
